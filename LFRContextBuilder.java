@@ -332,7 +332,7 @@ public class LFRContextBuilder implements ContextBuilder<Object> {
         }
     }
     /**
-     * 🔥 新增：验证社区观点分布
+     * 验证社区观点分布
      */
     private void validateCommunityOpinionDistribution() {
         System.out.println("\n=== 社区观点分布验证 ===");
@@ -499,4 +499,5 @@ public class LFRContextBuilder implements ContextBuilder<Object> {
     public LFRNetworkGenerator<Object> getGenerator() {
         return generator;
     }
+
 }
