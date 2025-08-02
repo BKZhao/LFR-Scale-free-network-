@@ -1,4 +1,4 @@
-package epidemicOpinion;
+
 import java.util.*;
 import java.io.*;
 import org.apache.commons.collections15.BidiMap;
@@ -821,4 +821,5 @@ public class LFRNetworkGenerator<T> extends AbstractGenerator<T> {
         System.out.println("Expected power-law exponent: " + tau2);
         System.out.println("==============================");
     }
+
 }
