@@ -1,7 +1,7 @@
 # LFRContextBuilder
 
 ## Overview
-`LFRContextBuilder` is a `ContextBuilder` implementation for Repast Simphony that constructs agent-based simulation contexts using the LFR (Lancichinetti-Fortunato-Radicchi) benchmark network model. It handles agent creation, network generation, community assignment, and initial state configuration for opinion dynamics and epidemic spreading simulations.
+`LFRContextBuilder` is a `ContextBuilder` implementation for Repast Simphony that constructs agent-based simulation contexts using the LFR (Lancichinetti-Fortunato-Radicchi) benchmark network model. It handles agent creation, network generation, community assignment, and initial state configuration.
 
 ## Key Functions
 - Creates `Agent` instances and adds them to the simulation context
@@ -20,7 +20,7 @@
 # LFRNetworkGenerator
 
 ## Overview
-`LFRNetworkGenerator<T>` is a class implementing the Lancichinetti-Fortunato-Radicchi (LFR) benchmark model, designed to generate synthetic networks with realistic community structures. This generator creates networks with power-law degree distributions and community size distributions, controlled by a mixing parameter (`mu`) that regulates the fraction of inter-community edges. It is primarily used for testing community detection algorithms and simulating complex network dynamics in agent-based models.
+`LFRNetworkGenerator<T>` is a class implementing the LFR benchmark model, designed to generate synthetic networks with realistic community structures. This generator creates networks with power-law degree distributions and community size distributions, controlled by a mixing parameter (`mu`) that regulates the fraction of inter-community edges. 
 
 ## Key Features
 - Generates networks with power-law degree distribution (controlled by `tau1`)
@@ -60,7 +60,7 @@
 # ScaleFreeNetwork
 
 ## Overview
-`ScaleFreeNetwork` is a class designed to generate scale-free networks using the Barabási-Albert (BA) model, tailored for agent-based simulations in Repast Simphony. Scale-free networks exhibit power-law degree distributions, where most nodes have few connections while a small number of hubs have many—mirroring real-world systems like social networks, citation networks, and biological networks.
+`ScaleFreeNetwork` is a class designed to generate scale-free networks using the Barabási-Albert (BA) model, tailored for agent-based simulations in Repast Simphony. Scale-free networks exhibit power-law degree distributions, where most nodes have few connections while a small number of hubs have many—mirroring real-world systems.
 
 ## Key Features
 - Implements the Barabási-Albert algorithm with preferential attachment
