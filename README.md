@@ -21,6 +21,8 @@
 
 ## Overview
 `LFRNetworkGenerator<T>` is a class implementing the LFR benchmark model, designed to generate synthetic networks with realistic community structures. This generator creates networks with power-law degree distributions and community size distributions, controlled by a mixing parameter (`mu`) that regulates the fraction of inter-community edges. 
+<img width="1900" height="804" alt="image" src="https://github.com/user-attachments/assets/a20c07dd-6f7f-45f9-9915-5606a04ac7ae" />
+
 
 ## Key Features
 - Generates networks with power-law degree distribution (controlled by `tau1`)
